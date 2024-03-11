@@ -13,7 +13,7 @@ class queue
 		cin>>n;
 		if(rear==5)
 		{
-			cout<<"overflow"<<endl;
+			cout<<"The queue is overflow"<<endl;
 			return;
 		}
 		rear++;
