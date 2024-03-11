@@ -9,7 +9,7 @@ class queue
 	void insert()
 	{
 		int n;
-		cout<<"Enter the elements:"<<endl;
+		cout<<"Enter the elements to insert:"<<endl;
 		cin>>n;
 		if(rear==5)
 		{
