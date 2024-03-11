@@ -27,7 +27,7 @@ class queue
 	{
 		if(front==-1||front>rear)
 		{
-			cout<<"underflow"<<endl;
+			cout<<"The queue is underflow"<<endl;
 			return;
 		}
 		front++;
