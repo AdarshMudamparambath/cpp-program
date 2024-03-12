@@ -24,7 +24,7 @@ int stack[10];
         if (top == 9) {
             std::cout << "The Stack is empty. Cannot pop more elements.\n";
         } else {
-            std::cout << "Element " << stack[top] << " popped from the stack.\n";
+            std::cout << "The Element " << stack[top] << " popped from the stack.\n";
             top--;
         }
     }
