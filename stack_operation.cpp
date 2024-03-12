@@ -34,7 +34,7 @@ int stack[10];
         if (top == -1) {
             std::cout << "The Stack is empty.\n";
         } else {
-            std::cout << "Stack: ";
+            std::cout << "The Stack: ";
             for (int i = 0; i <= top; i++) {
                 std::cout << stack[i] << " ";
             }
