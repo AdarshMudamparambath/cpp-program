@@ -11,7 +11,7 @@ int stack[10];
     // Function to push an element onto the stack
     void push(int value) {
         if (top ==  - 1) {
-            std::cout << "Stack is full. Cannot push more elements.\n";
+            std::cout << "The Stack is full. Cannot push more elements.\n";
         } else {
             top++;
             stack[top] = value;
