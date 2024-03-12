@@ -57,7 +57,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                std::cout << "Enter element to push: ";
+                std::cout << "Enter the element to push: ";
                 std::cin >> element;
                 myStack.push(element);
                 break;
