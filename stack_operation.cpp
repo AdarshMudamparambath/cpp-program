@@ -15,7 +15,7 @@ int stack[10];
         } else {
             top++;
             stack[top] = value;
-            std::cout << "Element " << value << " pushed onto the stack.\n";
+            std::cout << "The Element " << value << " pushed onto the stack.\n";
         }
     }
 
