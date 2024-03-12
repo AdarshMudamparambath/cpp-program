@@ -32,7 +32,7 @@ int stack[10];
     // Function to display the elements of the stack
     void display() {
         if (top == -1) {
-            std::cout << "Stack is empty.\n";
+            std::cout << "The Stack is empty.\n";
         } else {
             std::cout << "Stack: ";
             for (int i = 0; i <= top; i++) {
